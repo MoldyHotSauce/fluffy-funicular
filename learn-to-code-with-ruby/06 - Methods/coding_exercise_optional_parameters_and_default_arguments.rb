@@ -12,7 +12,7 @@
 # calculate_meal_cost(100)        => 120
 
 def calculate_meal_cost(amount, tip = 0.2)
-  return amount + (amount * tip)
+  amount + (amount * tip)
 end
 
 puts calculate_meal_cost(20, 0.05)
@@ -37,7 +37,7 @@ puts
 # string_adder("Tiger")               => "Tiger "
 
 def string_adder(string1 = "", string2 = "")
-  return string1 + " " + string2
+  string1 + " " + string2
 end
 
 puts string_adder("Hello", "World")
