@@ -37,7 +37,7 @@ puts
 # string_adder("Tiger")               => "Tiger "
 
 def string_adder(string1 = "", string2 = "")
-  string1 + " " + string2
+  "#{string1} #{string2}"
 end
 
 puts string_adder("Hello", "World")
