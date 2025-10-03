@@ -13,10 +13,8 @@ def even_or_odd_operations(num)
   if num.even?
     return num + 2
   end
-
-  if num.odd?
-    return num - 3
-  end
+    
+  return num - 3
 end
 
 puts even_or_odd_operations(-23)
